@@ -1,0 +1,91 @@
+<!Doctype html>
+<html lang="en">
+     <!--Pestaña de la página-->
+<head><!--Lo que este dentro de head no se muestra-->
+<!--Codigo para iconos font awesome-->
+<script src="https://kit.fontawesome.com/2b68b16ef2.js" crossorigin="anonymous"></script>
+    <!--Codigo para acentos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><!--pendiente tamaño de visualizacion-->
+    <meta http-equiv=”Content-Type” content="text/html" charset="UTF-8" />
+    <meta http-equiv=”Content-Type” content="text/html" charset="ISO-8859-1" />
+    <title>Fundación Vany Jiménez A.C.</title><!--Titulo de la pestaña-->
+    <link rel="icon" type="image/png" href="img/logo vany.jpg"> <!--Logo pestaña-->
+    
+     <!--Link para estilos-->
+    <link rel="stylesheet" type="text/css" href="estilos/apartadosdeservicios.css">
+    <link rel="stylesheet" type="text/css" href="estilos/menuypie.css">
+    <script>
+      class MiNav extends HTMLElement {
+       connectedCallback() {
+        this.innerHTML = /* html */
+        `<a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+        <a href="nosotros.html">
+            <i class="fa-solid fa-users"></i>
+            Nosotros
+        </a>
+        <a href="servicios.html">
+            <i class="fa-solid fa-cubes"></i>
+            Servicios
+        </a>
+        <a href="../index.html#mapita">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Contactanos
+        </a>
+        <a href="galeria.html">
+            <i class="fa-solid fa-images"></i>
+            Galeria
+        </a>`;
+       }
+      }
+      customElements.
+       define("mi-nav", MiNav);
+     </script>
+  </head>
+  <!--Cuerpo de la página-->
+<body> 
+<header>
+    <!--Menu de la página-->
+  <div id="menu">
+   <mi-nav></mi-nav>
+  </div>
+</header>
+<br>
+<!-- politicas de privacidad -->
+<div class="diálogo">
+  <div class="línea">
+  <h2>AVISO DE PRIVACIDAD</h2>
+<br><p>El presente Aviso de privacidad se establece en cumplimiento de lo dispuesto en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.
+  <b>Fundación Vany Jiménez A.C. con dirección, Monumento a la Raza No. 290 Col. Evolución Ciudad Nezahualcóyotl C.P. 57700, </b>es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.
+   </p>
+<h4> Información que es recogida</h4>
+<p>Nuestro sitio web pudiera recoger información personal, por ejemplo: Nombre, información de contacto como su dirección de correo electrónico e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.
+  <br>Su información personal será utilizada para proveer los servicios y productos que ha solicitado, informarle sobre cambios en los mismos y evaluar la calidad del servicio que le brindamos.
+  <br>Usted está aceptando nuestro Aviso de Privacidad y tiene derecho de acceder, rectificar y cancelar sus datos personales si fueron solicitados, así como de oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado en el momento que usted así lo requiera mediante el correo: fundacionvanyjimenez@gmail.com
+  </p>
+<h4>Enlaces a Terceros</h4>
+<p>Este sitio web puede contener enlaces a otros sitios que podrían ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre el sitio al que es redirigido y por lo tanto no somos responsables de los términos de privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo.
+  <br>Fundación Vany Jiménez A.C. no venderá, cederá, ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.
+  <br>Fundamento para el tratamiento de datos personales Fundación Vany Jiménez A.C. tratará y protegerá los datos personales antes señalados con fundamento en los artículos 3, fracciones II, VIII, IX, XIII, XXXIII y XXXIV, 17, 18, 19, 23, 25, 27,28 y 85 de Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados. 
+    </p>
+    <h4>Fundación Vany Jiménez A.C.</h4>
+    <b><p>Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.</p></b>
+</div>
+</div>
+
+<!-- pie de pagina -->
+
+<div class="pie">
+<footer>
+  <hr>
+        <p> Monumento a La Raza 290, Evolucion, 57700 Nezahualcóyotl, Méx <br>
+        Derechos Reservados @2022<br>
+              <br> &#xa9; 2022 FVJ </p>     
+   </footer>
+</div>
+</body> 
+</html>

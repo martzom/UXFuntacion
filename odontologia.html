@@ -1,0 +1,95 @@
+<!Doctype html>
+<html lang="en">
+     <!--Pestaña de la página-->
+<head><!--Lo que este dentro de head no se muestra-->
+<!--Codigo para iconos font awesome-->
+<script src="https://kit.fontawesome.com/2b68b16ef2.js" crossorigin="anonymous"></script>
+    <!--Codigo para acentos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><!--pendiente tamaño de visualizacion-->
+    <meta http-equiv=”Content-Type” content="text/html" charset="UTF-8" />
+    <meta http-equiv=”Content-Type” content="text/html" charset="ISO-8859-1" />
+    <title>Fundación Vany Jiménez A.C.</title><!--Titulo de la pestaña-->
+    <link rel="icon" type="image/png" href="img/logo vany.jpg"> <!--Logo pestaña-->
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+
+     <!--Link para estilos-->
+    <link rel="stylesheet" type="text/css" href="estilos/apartadosdeservicios.css">
+    <link rel="stylesheet" type="text/css" href="estilos/menuypie.css">
+    <link rel="stylesheet" type="text/css" media="(prefers-color-scheme: dark)" href="estilos/dark.css">
+    <link rel="stylesheet" type="text/css" media="(prefers-color-scheme: light)" href="estilos/light.css">
+    <script>
+      class MiNav extends HTMLElement {
+       connectedCallback() {
+        this.innerHTML = /* html */
+        `<a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+        <a href="nosotros.html">
+            <i class="fa-solid fa-users"></i>
+            Nosotros
+        </a>
+        <a href="servicios.html">
+            <i class="fa-solid fa-cubes"></i>
+            Servicios
+        </a>
+        <a href="../index.html#mapita">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Contactanos
+        </a>
+        <a href="galeria.html">
+            <i class="fa-solid fa-images"></i>
+            Galeria
+        </a>`;
+       }
+      }
+      customElements.
+       define("mi-nav", MiNav);
+     </script>
+  </head>
+  <!--Cuerpo de la página-->
+<body> 
+  <header>
+    <!--Menu de la página-->
+  <div id="menu">
+   <mi-nav> </mi-nav>
+   <div class="bg-success text-white">
+   <dark-mode-toggle
+  id="dark-mode-toggle-1"
+  legend="Theme Switcher"
+  appearance="switch"
+  dark="Dark"
+  light="Light"
+></dark-mode-toggle>
+</div>
+  </div>
+</header>
+
+<h2 class="titulo">ODONTOLOGÍA</h2>
+<div class="diálogo">
+  <div class="línea">
+    <figure>
+      <img src="img/odontologo.jpeg" align="left">
+      <br><p>Las afecciones bucales constituyen un importante problema de salud por su alta prevalencia, demanda pública y fuerte impacto sobre las personas y la sociedad en términos de dolor, malestar, limitación y discapacidad social y funcional, también por su efecto sobre la calidad de vida de la población.
+      <br>En el Estado de México los problemas bucales han representado una problemática relevante en la población sin importar condición socioeconómica o zona geográfica. Sin embargo, aunque la mayoría de la población padece alguna enfermedad bucal no todos tienen la posibilidad de acceder a la atención adecuada y sobre todo, oportuna.  
+      <br>Las enfermedades bucales influyen diferentes factores para que estas se desarrollen en la población tales como los factores socioeconómicos, demográficos, políticos, nivel de escolaridad etc. 
+      <br>Lo cual es una tarea ardua poder establecer acciones para cambiar el mal panorama que se tiene en la salud bucal; en este caso y considerando las diferentes situaciones a los que nos enfrentamos en el municipio de Nezahualcóyotl, Fundación Vany Jimenez A.C., como organización de la sociedad civil  ofrece estrategias encaminadas a la prevención e intervención de los problemas bucales que atañen la salud general de la población, a través del área de Odontología la cual cuenta con un especialista que te brinda diferentes opciones con la intención de alcanzar una óptima salud bucal. 
+
+      <br><br><a href="https://wa.me/525576826297"><i class="fa-brands fa-whatsapp"></i> Si desea tener más información o agendar una cita puede comunicarse a este número por WhatsApp</a>
+    </figure>
+  </div>
+</div>
+<!-- pie de pagina -->
+
+<div class="pie">
+<footer>
+  <hr>
+        <p> Monumento a La Raza 290, Evolucion, 57700 Nezahualcóyotl, Méx <br>
+        Derechos Reservados @2022<br>
+              <br> &#xa9; 2022 FVJ  |  <a href="politicas.html">Politicas de Privacidad</a>  </p>     
+   </footer>
+</div>
+</body> 
+</html>

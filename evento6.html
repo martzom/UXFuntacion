@@ -1,0 +1,86 @@
+<!Doctype html>
+<html lang="en">
+     <!--Pestaña de la página-->
+<head><!--Lo que este dentro de head no se muestra-->
+<!--Codigo para iconos font awesome-->
+<script src="https://kit.fontawesome.com/2b68b16ef2.js" crossorigin="anonymous"></script>
+    <!--Codigo para acentos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><!--pendiente tamaño de visualizacion-->
+    <meta http-equiv=”Content-Type” content="text/html" charset="UTF-8" />
+    <meta http-equiv=”Content-Type” content="text/html" charset="ISO-8859-1" />
+    <title>Fundación Vany Jiménez A.C.</title><!--Titulo de la pestaña-->
+    <link rel="icon" type="image/png" href="img/logo vany.jpg"> <!--Logo pestaña-->
+    
+     <!--Link para estilos-->
+    <link rel="stylesheet" type="text/css" href="estilos/eventos.css">
+    <link rel="stylesheet" type="text/css" href="estilos/menuypie.css">
+    <script>
+      class MiNav extends HTMLElement {
+       connectedCallback() {
+        this.innerHTML = /* html */
+        `<a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+        <a href="nosotros.html">
+            <i class="fa-solid fa-users"></i>
+            Nosotros
+        </a>
+        <a href="servicios.html">
+            <i class="fa-solid fa-cubes"></i>
+            Servicios
+        </a>
+        <a href="../index.html#mapita">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Contactanos
+        </a>
+        <a href="galeria.html">
+            <i class="fa-solid fa-images"></i>
+            Galeria
+        </a>`;
+       }
+      }
+      customElements.
+       define("mi-nav", MiNav);
+     </script>
+  </head>
+  <!--Cuerpo de la página-->
+<body> 
+<header>
+    <!--Menu de la página-->
+  <div id="menu">
+   <mi-nav></mi-nav>
+  </div>
+</header>
+
+
+<!--Selleccion de servicio-->
+
+<h2>Eventos De Navidad</h2>
+<div class="diálogo">
+  <div class="línea">
+    <br>Fundación Vany Jimenez A.C. participo en conjunto con algunas estancias de desarrollo infantil en eventos correspondientes a las sembrinas navideñas, donde se dio la presentación ante los padres de familia con la intención de ofrecer nuestros servicios y darles a conocer los beneficios de una atención oportuna para mejorar su estado de salud. 
+    <div class="cards">
+      <img src="eventos/EVENTOS DE NAVIDAD/navidad1.jpg">
+      <img src="eventos/EVENTOS DE NAVIDAD/navidad5.jpg">
+      <img src="eventos/EVENTOS DE NAVIDAD/navidad3.jpg">
+      <img src="eventos/EVENTOS DE NAVIDAD/navidad4.jpg">
+      <img src="eventos/EVENTOS DE NAVIDAD/navidad2.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- pie de pagina -->
+
+<div class="pie">
+<footer>
+  <hr>
+        <p> Monumento a La Raza 290, Evolucion, 57700 Nezahualcóyotl, Méx <br>
+        Derechos Reservados @2022<br>
+              <br> &#xa9; 2022 FVJ  |  <a href="politicas.html">Politicas de Privacidad</a>  </p>     
+   </footer>
+</div>
+</body> 
+</html>

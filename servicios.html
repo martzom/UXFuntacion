@@ -1,0 +1,163 @@
+<!Doctype html>
+<html lang="en">
+     <!--Pestaña de la página-->
+<head><!--Lo que este dentro de head no se muestra-->
+<!--Codigo para iconos font awesome-->
+<script src="https://kit.fontawesome.com/2b68b16ef2.js" crossorigin="anonymous"></script>
+    <!--Codigo para acentos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><!--pendiente tamaño de visualizacion-->
+    <meta http-equiv=”Content-Type” content="text/html" charset="UTF-8" />
+    <meta http-equiv=”Content-Type” content="text/html" charset="ISO-8859-1" />
+    <title>Fundación Vany Jiménez A.C.</title><!--Titulo de la pestaña-->
+    <link rel="icon" type="image/png" href="img/logo vany.jpg"> <!--Logo pestaña-->
+    
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+     <!--Link para estilos-->
+    <link rel="stylesheet" type="text/css" href="estilos/servicios.css">
+    <link rel="stylesheet" type="text/css" href="estilos/menuypie.css">
+    <link rel="stylesheet" type="text/css" media="(prefers-color-scheme: dark)" href="estilos/dark.css">
+    <link rel="stylesheet" type="text/css" media="(prefers-color-scheme: light)" href="estilos/light.css">
+    
+    <script>
+      class MiNav extends HTMLElement {
+       connectedCallback() {
+        this.innerHTML = /* html */
+        `<a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+        <a href="nosotros.html">
+            <i class="fa-solid fa-users"></i>
+            Nosotros
+        </a>
+        <a href="servicios.html">
+            <i class="fa-solid fa-cubes"></i>
+            Servicios
+        </a>
+        <a href="../index.html#mapita">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Contactanos
+        </a>
+        <a href="galeria.html">
+            <i class="fa-solid fa-images"></i>
+            Galeria
+        </a>`;
+       }
+      }
+      customElements.
+       define("mi-nav", MiNav);
+     </script>
+  </head>
+  <!--Cuerpo de la página-->
+<body> 
+  <header>
+    <!--Menu de la página-->
+  <div id="menu">
+   <mi-nav> </mi-nav>
+   <div class="bg-success text-white">
+   <dark-mode-toggle
+  id="dark-mode-toggle-1"
+  legend="Theme Switcher"
+  appearance="switch"
+  dark="Dark"
+  light="Light"
+></dark-mode-toggle>
+</div>
+  </div>
+</header>
+
+<!--Selleccion de servicio-->
+<div class="cuadro"><br>
+<h2>SERVICIOS QUE OFRECEMOS</h2>
+<div class="cards">
+  <figure>
+  <img src="img/Psicologia.PNG">
+    <div class="capa">
+      <div class="capa1">
+        
+        <h3>PSICOLOGÍA INTEGRAL</h3>
+        <p>
+          Promover acciones de asistencia en materia de salud mental, salud emocional, problemas de aprendizaje, terapia de pareja entre otros servicios para la población en general.
+        </p>
+        <br> <a href="psicologia.html">Leer más</a>
+      </div>
+    </div>
+  </figure>
+  <figure>
+  <img src="img/odontologo.jpeg">
+    <div class="capa">
+      <div class="capa2">
+        <h3>ODONTOLOGÍA</h3>
+        <p>
+          La Odontología combina ciencia y arte para crear sonrisas sanas y bonitas.  
+        </p>
+        <br><a href="odontologia.html">Leer más</a>
+      </div>
+    </div>
+  </figure>
+    <figure>
+  <img src="img/jovenes.png">
+    <div class="capa">
+      <div class="capa3">
+        <h3>JÓVENES CONSTRUYENDO EL FUTURO</h3>
+        <p>
+          Un programa que vincula a personas de entre 18 y 29 años de edad
+        </p>
+        <br><a href="jovenes.html">Leer más</a>
+      </div>
+    </div>
+  </figure>
+  <figure>
+  <img src="img/nutricion.jpeg">
+    <div class="capa">
+      <div class="capa4">
+        <h3>ASESORÍA NUTRICIONAL PARA EL DESARROLLO Y CRECIMIENTO</h3>
+        <p>
+          Previene enfermedades no transmisibles y mejora tu estilo de vida.
+        </p>
+        <br><a href="nutricion.html">Leer más</a>
+      </div>
+    </div>
+  </figure>
+  <figure>
+  <img src="img/barberia.jpg">
+    <div class="capa">
+      <div class="capa5">
+        <h3>BARBERÍA</h3>
+        <p>
+          Detrás de un buen corte hay dedicación, paciencia y un buen barbero.
+        </p>
+        <br><a href="barberia.html">Leer más</a>
+      </div>
+    </div>
+  </figure>
+  <!--apartado de servicios agregar-->
+    <figure>
+  <img src="img/logo vany.jpg"><!--imagen que esta dentro-->
+    <div class="capa">
+      <div class="capa6"><!--cambiar numero continuo-->
+      <h3>TALLERES</h3><!--nombre servicio-->
+        <p>
+          Los invitamos a checar nuestra lista de talleres...<!--texto-->
+        </p>
+        <br> <a href="talleres.html">Leer más</a><!--cambiar link de apartado-->
+      </div>
+    </div>
+  </figure>
+    <!---->
+</div>
+</div>
+<!-- pie de pagina -->
+
+<div class="pie">
+  <footer>
+      <hr>
+          <p> Monumento a La Raza 290, Evolucion, 57700 Nezahualcóyotl, Méx <br>
+          Derechos Reservados @2022<br>
+                <br> &#xa9; 2022 FVJ  |  <a href="politicas.html">Politicas de Privacidad</a>  </p>     
+     </footer>
+  </div>
+  </body> 
+  </html>
